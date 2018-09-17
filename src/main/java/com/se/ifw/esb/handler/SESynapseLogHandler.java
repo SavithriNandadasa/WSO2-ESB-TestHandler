@@ -153,13 +153,11 @@ public class SESynapseLogHandler extends AbstractSynapseHandler {
             log.auditLog("<< HTTP Headers " + SELogTrackUtil.getHTTPHeaders(synCtx));
             log.auditDebug("Returning SESynapseLogHandler.handleResponseOutFlow");
 
-
-          //  long startTime = Long.parseLong((String) (synCtx.getProperty(SELOG_INFLOW_REQUEST_START_TIME)));
-            long startTime = Long.valueOf((String) synCtx.getProperty(SELOG_INFLOW_REQUEST_START_TIME));
-            long backendStartTime = Long.valueOf((String) synCtx.getProperty(SELOG_OUTFLOW_REQUEST_START_TIME));
+            long startTime =  Long.parseLong((String) (synCtx.getProperty(SELOG_INFLOW_REQUEST_START_TIME)));
+            long backendStartTime =  Long.parseLong((String) (synCtx.getProperty(SELOG_OUTFLOW_REQUEST_START_TIME)));
 
             if (synCtx.getProperty(SELOG_INFLOW_RESPONSE_END_TIME) != null) {
-                backendEndTime = Long.valueOf((String) synCtx.getProperty(SELOG_INFLOW_RESPONSE_END_TIME));
+                backendEndTime = Long.valueOf((String) (synCtx.getProperty(SELOG_INFLOW_RESPONSE_END_TIME)));
             }
 
             //When start time not properly set
