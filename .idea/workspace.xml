@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86a5d252-d278-4fcf-aa29-04e86321f481" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestHandler.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/se/ifw/esb/handler/SESynapseLogHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/se/ifw/esb/handler/SESynapseLogHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.plxarc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TestHandler-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/DEPENDENCIES" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/NOTICE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/se/ifw/esb/handler/SELogTrackUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/se/ifw/esb/handler/SESynapseLogHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-shared-archive-resources/META-INF/DEPENDENCIES" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-shared-archive-resources/META-INF/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-shared-archive-resources/META-INF/NOTICE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/DEPENDENCIES" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/NOTICE" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,8 +26,11 @@
       <file leaf-file-name="SESynapseLogHandler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/se/ifw/esb/handler/SESynapseLogHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="155" column="55" selection-start-line="155" selection-start-column="55" selection-end-line="155" selection-end-column="55" />
+            <state relative-caret-position="366">
+              <caret line="207" column="118" selection-start-line="207" selection-start-column="118" selection-end-line="207" selection-end-column="118" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -210,10 +194,10 @@
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32921812" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -231,6 +215,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/se/ifw/esb/handler/SELogTrackUtil.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -241,8 +230,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/se/ifw/esb/handler/SESynapseLogHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="155" column="55" selection-start-line="155" selection-start-column="55" selection-end-line="155" selection-end-column="55" />
+        <state relative-caret-position="366">
+          <caret line="207" column="118" selection-start-line="207" selection-start-column="118" selection-end-line="207" selection-end-column="118" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

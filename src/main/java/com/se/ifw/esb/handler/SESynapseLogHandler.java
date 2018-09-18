@@ -153,11 +153,11 @@ public class SESynapseLogHandler extends AbstractSynapseHandler {
             log.auditLog("<< HTTP Headers " + SELogTrackUtil.getHTTPHeaders(synCtx));
             log.auditDebug("Returning SESynapseLogHandler.handleResponseOutFlow");
 
-            long startTime =  Long.parseLong((String) (synCtx.getProperty(SELOG_INFLOW_REQUEST_START_TIME)));
-            long backendStartTime =  Long.parseLong((String) (synCtx.getProperty(SELOG_OUTFLOW_REQUEST_START_TIME)));
+            long startTime = (Long) synCtx.getProperty(SELOG_INFLOW_REQUEST_START_TIME);
+            long backendStartTime =  (Long)synCtx.getProperty(SELOG_OUTFLOW_REQUEST_START_TIME);
 
             if (synCtx.getProperty(SELOG_INFLOW_RESPONSE_END_TIME) != null) {
-                backendEndTime = Long.valueOf((String) (synCtx.getProperty(SELOG_INFLOW_RESPONSE_END_TIME)));
+                backendEndTime = (Long)synCtx.getProperty(SELOG_INFLOW_RESPONSE_END_TIME);
             }
 
             //When start time not properly set
@@ -205,9 +205,10 @@ public class SESynapseLogHandler extends AbstractSynapseHandler {
 
 
             log.auditLog("API Transaction Details:"
-                    + "API_Name: " + API_Name + ",HTTP_METHOD: " + HTTP_METHOD + ", CONTEXT: " + CONTEXT + ", resourceName: " + resourceName +
+                    + "API_NAME: " + API_Name + ",HTTP_METHOD: " + HTTP_METHOD + ", CONTEXT: " + CONTEXT + ", RESOURCE: " + resourceName +
+                    ",FULL_REQUEST_PATH" + FULL_REQUEST_PATH + ",SUB_PATH: " + SUB_PATH +
                     ", HTTP_RESPONSE_STATUS_CODE: " + HTTP_RESPONSE_STATUS_CODE + ", ResponseTime: " + responseTime + ", BackendTime: " + backendTime + ", ServiceTime: " + serviceTime +
-                    ", ERROR_CODE: " + ERROR_CODE + ", ERROR_MESSAGE: " + ERROR_MESSAGE + ",FULL_REQUEST_PATH" + FULL_REQUEST_PATH + ",SUB_PATH: " + SUB_PATH);
+                    ", ERROR_CODE: " + ERROR_CODE + ", ERROR_MESSAGE: " + ERROR_MESSAGE);
 
         } catch (Exception e) {
 
